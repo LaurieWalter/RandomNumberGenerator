@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://2.bp.blogspot.com/-gK4kPIk-p-w/XGucJLaTXrI/AAAAAAADcTY/jSIt9ah4T70apaJxcvEHL0ZSYNa0zXj3QCLcBGAs/s1600/margaret-hamilton-poses-next-to-huge-stack-of-code.jpg);
+    background-color:#2f3e46;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: #52796f;
+    width: 25%;
+    min-width: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    padding: 3em;
+    box-shadow: 0 15px 15px #354f52;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+}
+
+input{
+    background-color: #52796f;
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    border: none;
+    color: white;
+    border-bottom: 1.5px solid #2f3e46;
+}
+
+input#focus{
+    border-color: #CAD2c5;
+}
+
+button#generate{
+    display: block;
+    width: 100%;
+    font-size: 1.1em;
+    margin: 2.7em 0 1.1em 0;
+    cursor: pointer;
+    background-color: #CAD2c5;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 0.5em;
+    color:#2f3e46;
+}
+
+#result{
+    text-align: center;
+    font-size: 3.7em;
+    font-size: 600;
+    color: white;
+}
